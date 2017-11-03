@@ -1,0 +1,8 @@
+sep = ""
+x = float(input("Enter x value : "))
+if x > 0:
+    print("sign(",x,") = 1")
+elif x < 0:
+    print("sign(",x,") = -1")
+else:
+    print("sign(",x,") = 0")
